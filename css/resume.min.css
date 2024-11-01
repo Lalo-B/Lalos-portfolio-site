@@ -11,15 +11,21 @@ body{font-family:'Open Sans',serif;padding-top:54px;color:#868e96}@media (min-wi
     bottom: 150px;
     /* height: 150px; */
     width: 100%;
-    /* visibility: hidden; */
+    visibility: hidden;
 }
 .tooltip-parent-div {
     width: fit-content;
 }
 
+.tooltip-images {
+    height: 150px;
+    color: white;
+}
+
 .tooltip-parent-div:hover .tooltip-images {
     visibility: visible;
-    /* background-color: black; */
+    background-color: #bd5d38;
+    transition: background-color 0.2s;
 }
 
 .tooltip-parent-div:hover {
