@@ -4,7 +4,7 @@ body{font-family:'Open Sans',serif;padding-top:54px;color:#868e96}@media (min-wi
     height: 150px;
 }
 
-.tooltip-images {
+.tooltip-images-text {
     position: relative;
     width: fit-content;
     /* background-color: grey; */
@@ -12,22 +12,28 @@ body{font-family:'Open Sans',serif;padding-top:54px;color:#868e96}@media (min-wi
     /* height: 150px; */
     width: 100%;
     visibility: hidden;
-}
-.tooltip-parent-div {
-    width: fit-content;
-}
-
-.tooltip-images {
     height: 150px;
     color: white;
 }
+.tooltip-parent-div {
+    width: fit-content;
+    /* height:fit-content; */
+    height: 150px;
+    margin-bottom: 1rem;
+}
 
-.tooltip-parent-div:hover .tooltip-images {
+
+.tooltip-parent-div:hover .tooltip-images-text {
     visibility: visible;
     background-color: #bd5d38;
     transition: background-color 0.2s;
 }
 
-.tooltip-parent-div:hover {
-    /* background-color: black; */
+.center {
+    text-align: center;
+    padding-top: 21%;
 }
+
+/* .tooltip-parent-div:hover {
+    background-color: black;
+} */
